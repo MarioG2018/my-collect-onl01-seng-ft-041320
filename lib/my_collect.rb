@@ -2,8 +2,8 @@ def (array)
   i= 0
   new_array=[]
   while i < array.length
-    new_array.push(yield array[i])
-    #new_array << yield(array[i])
+    #new_array.push(yield array[i])
+    new_array << yield array[i]
     i+=1
   end
   new_array
